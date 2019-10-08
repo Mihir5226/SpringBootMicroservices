@@ -1,0 +1,23 @@
+.header {
+  padding: 20px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  background: #03befc;
+  color: white;
+  font-size: 30px;
+}
+body
+{background-color: coral;}
+
+.button2 {
+  background-color:#c2e354;
+  border: none;
+  margin-top: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
