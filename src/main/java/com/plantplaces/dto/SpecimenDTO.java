@@ -3,7 +3,7 @@ package com.plantplaces.dto;
 public class SpecimenDTO 
 {
 	private int specimenId;
-	private String latitide;
+	private String latitude;
 	private String longitude;
 	private String description;
 	
@@ -16,10 +16,10 @@ public class SpecimenDTO
 		this.specimenId = specimenId;
 	}
 	public String getLatitide() {
-		return latitide;
+		return latitude;
 	}
 	public void setLatitide(String latitide) {
-		this.latitide = latitide;
+		this.latitude = latitide;
 	}
 	public String getLongitude() {
 		return longitude;
@@ -32,6 +32,12 @@ public class SpecimenDTO
 	}
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return specimenId + " " + latitude + " " + longitude + " " + description;
 	}
 	
 	
